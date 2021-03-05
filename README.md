@@ -9,16 +9,15 @@
 
 #### Use the Flask app from the blog article you chose in last week’s (Wed 2/11/2021) class. 
 
-&rarr;
 
 #### a) Submit the link to the blog post with the project you chose to implement (10 pts)
-&rarr;
+&rarr; [blog post link](https://medium.com/analytics-vidhya/deploy-machine-learning-model-using-flask-to-heroku-beginners-part-1-451b117a4c7e)
 
 #### b) Submit the link to your deployed project from the blog post on AWS. If you were unable to implement the project in the blog post, you can choose to Dockerize the MNIST Digit Recognizer and deploy to AWS instead. (30 pts)
 &rarr;
 
 #### Extra Credit For deploying the Flask app from the blog post you chose to Heroku! (submit link) (10 pts)
-&rarr;
+&rarr; [heroku link](https://diabetes-tutorial.herokuapp.com/)
 
 
 
@@ -41,7 +40,8 @@ allow users to input their data which will then be sent to the backend for proce
 
 ### Q3 Deploying a Machine Learning Model to the Web
 
-#### List and discuss three ways you could improve the project (15 pts)
+#### List and discuss three ways you could improve the project (15 pts). 
+- 
 
-#### Sketch out a rough implementation plan for how you would make these improvements (15 pts)
+#### Sketch out a rough implementation plan for how you would make these improvements (15 pts).
 
