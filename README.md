@@ -41,7 +41,15 @@ allow users to input their data which will then be sent to the backend for proce
 ### Q3 Deploying a Machine Learning Model to the Web
 
 #### List and discuss three ways you could improve the project (15 pts). 
-- 
+- Make the styling bit more interactive and responsive. Currently the website styling is not reponsive and it takes up unnecessarily long width for all the input parameters as well as the predict button. Some styling would to make it look like a short form would help in the user interaction with the form. We could also do some form input validation in case of an unexpected input from the user. 
+
+- Try to see if it is possible to eliminate any of the many input parameters by fine-tuning the model and looking for correlations. Currently as we visualized in the model, there is a direct positive and direct negative correlation with a lot of the parameters. We could use this to eliminate the number of inputs the user has to enter to make the form shorter. 
+
+- Offer specific medical resources and guidance personlized to each person's. Based on what the model predicts as the result, the user could be redirected to some resources if they are medically unfit and might need to see a medical professional. 
 
 #### Sketch out a rough implementation plan for how you would make these improvements (15 pts).
+- To add some styling, we could use the bootstartp CSS library and take advantage for the bootstarp forms which will also handle form validation for us as well as styling. 
+- As we saw in the model, heatmap shows strong correlation between a few columns. Insulin is highly correlated with SkinThickness. SkinThickness is also highly correlated with BMI. Age is highly correlated with Pregnancies. This could be used to make some statistical inferences and eliminate some input paramaters from the user. 
+- Based on what the model predicts, we could redirect user to an appropriate health or government site should they need a medical guidance. 
+
 
